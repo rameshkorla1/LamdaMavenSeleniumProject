@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+	<!--
+	<test
+		name="ChromeTestWin11-1">
+		<classes>
+			<parameter name="url" value="https://www.lambdatest.com/selenium-playground/"/>
+			<parameter name="browserName" value="cHrOmE" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LOCAL" />
+			<parameter name="localMode" value="WebDriverManager" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="ChromeTestWin11-2">
+		<classes>
+			<parameter name="url" value="https://www.turbotax.com/" />
+			<parameter name="browserName" value="cHrOmE" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LOCAL" />
+			<parameter name="localMode" value="SystemDotSetProperty" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="EdgeTestWin11-1">
+		<classes>
+			<parameter name="url" value="https://www.glcu.org/" />
+			<parameter name="browserName" value="EdGe" />
+			<parameter name="browserVersion" value="118.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LOCAL" />
+			<parameter name="localMode" value="WebDriverManager" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="EdgeTestWin11-2">
+		<classes>
+			<parameter name="url" value="https://www.northerntrust.com/" />
+			<parameter name="browserName" value="EdGe" />
+			<parameter name="browserVersion" value="118.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LOCAL" />
+			<parameter name="localMode" value="SystemDotSetProperty" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="FirefoxWin11Local-1">
+		<classes>
+			<parameter name="url" value="https://www.monster.com/" />
+			<parameter name="browserName" value="FiReFox" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LocAl" />
+			<parameter name="localMode" value="WebDriverManager" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="FirefoxWin11Local-2">
+		<classes>
+			<parameter name="url" value="https://www.careerbuilder.com/" />
+			<parameter name="browserName" value="FiReFox" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="LocAl" />
+			<parameter name="localMode" value="SystemDotSetProperty" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test
+		name="ChromeTestWin11-3">
+		<classes>
+			<parameter name="url" value="https://www.irs.com/" />
+			<parameter name="browserName" value="ChRoMe" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 10" />
+			<parameter name="driverMode" value="ReMOtE" />
+			<parameter name="localMode" value="Local Mode-NA" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	<test
+		name="EdgeTestWin11-3">
+		<classes>
+			<parameter name="url" value="https://www.indeed.com/" />
+			<parameter name="browserName" value="EdGe" />
+			<parameter name="browserVersion" value="118.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="ReMOtE" />
+			<parameter name="localMode" value="Local Mode-NA" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+	-->
+	
+	<test
+		name="FirefoxWin11Remote-3">
+		<classes>
+			<parameter name="url" value="https://www.linkedin.com/" />
+			<parameter name="browserName" value="FiReFox" />
+			<parameter name="browserVersion" value="119.0" />
+			<parameter name="osVersion" value="Windows 11" />
+			<parameter name="driverMode" value="ReMOtE" />
+			<parameter name="localMode" value="Local Mode - NA" />
+			<class name="LaunchBrowsersUsing.XMLValues_as_Parameters" />
+		</classes>
+	</test>
+
+</suite>
